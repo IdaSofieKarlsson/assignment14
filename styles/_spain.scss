@@ -1,0 +1,40 @@
+@import 'cards';
+.spain {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    
+}
+.spain-1 {
+    background-image: url(../images/spain-1.png);
+    justify-content: flex-start;
+}
+.spain-2 {
+    background-image: url(../images/spain-2.png);
+    justify-content: flex-end;
+}
+.container-with-card {
+    max-width: 885px;
+    width: 100%;
+    min-height: 350px;
+    height: 100%;
+    display: flex;
+    
+    align-content: center;
+}
+.container-card-1 {
+    justify-content: flex-end;
+}
+.container-card-2 {
+    justify-content: flex-start;
+}
+
+
+.card {
+    align-self: center;
+}
+
