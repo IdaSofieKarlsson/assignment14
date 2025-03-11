@@ -1,1 +1,116 @@
 @import 'buttons';
+header {
+    background-image: url(../images/mountains-header.png);
+    max-width: 1770px;
+    width: 100%;
+    min-height: 820px;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header-text {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 737px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-title {
+    max-width: 372px;
+    width: 100%;
+    min-height: 76px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    color: variables.$font-color;
+    font-family: variables.$main-font;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+.header-title-p {
+    color: variables.$font-color;
+    font-family: variables.$main-font;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+}
+.header-search-form {
+    max-width: 653px;
+    width: 100%;
+    min-height: 63px;
+    height: 100%;
+}
+form {
+    max-width: 653px;
+    width: 100%;
+    min-height: 63px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    color: variables.$form-color;
+    max-width: 500px;
+    width: 100%;
+    min-height: 63px;
+    height: 100%;
+}
+.scroll-down, input {
+    font-family: variables.$main-font;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    text-align: center;
+}
+.scroll-down {
+    color: variables.$font-color;
+}
+
+nav {
+    background-color: variables.$btn-color;
+    max-width: 1773px;
+    width: 100%;
+    min-height: 83px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-p {
+    font-family: variables.$main-font;
+    color: variables.$font-color;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    margin-left: 12px;
+}
+nav ul li a {
+    font-family: variables.$second-font;
+    color: variables.$font-color;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
