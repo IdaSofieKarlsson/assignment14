@@ -2,9 +2,12 @@
     width: 175px;
     height: 110px;
 }
-nav ul li a {
+nav ul li a, .testimonial-p {
     font-size: 10px;
 }
-.nav-p {
-    font-size: 14px;
+.nav-p, .why-choose-us-p, .card-info, .testimonial-name {
+    font-size: 12px;
+}
+.why-choose-us-h2, .testimonial-h2 {
+    font-size: 20px;
 }
