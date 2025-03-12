@@ -10,7 +10,6 @@ header {
     flex-direction: column;
     margin: auto;
 }
-
 .header-text {
     max-width: 1770px;
     width: 100%;
@@ -31,7 +30,6 @@ header {
     align-items: center;
     justify-items: center;
 }
-
 h1 {
     color: variables.$font-color;
     font-family: variables.$main-font;
@@ -79,7 +77,6 @@ input {
 .scroll-down {
     color: variables.$font-color;
 }
-
 nav {
     background-color: variables.$btn-color;
     max-width: 1773px;
@@ -113,4 +110,9 @@ nav ul li a {
     line-height: 26px;
     letter-spacing: 0px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover, a:active {
+    cursor: crosshair;
+    color: variables.$card-background-color;
 }

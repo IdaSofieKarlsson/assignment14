@@ -24,3 +24,7 @@
     min-height: 63px;
     height: 100%;
 }
+.submit-btn:hover, .general-btn:hover {
+    cursor: crosshair;
+    background-color: variables.$background-color-div;
+}
